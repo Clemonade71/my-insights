@@ -21,6 +21,7 @@ In this blog post, I’ll walk through how I built my very own statistical model
 My analysis is based primarily on advanced basketball statistics publicly available through sources like KenPom.com and official NCAA/ESPN team databases. 
 These sources provide comprehensive team metrics—such as Adjusted Offensive and Defensive Efficiency, Effective Field Goal Percentage, Tempo, Turnover Rate, and much more.
 Additionally, historical tournament seeding data from Wikipedia helped set baselines for typical upset frequencies.
+To generate a large enough sample size, I've used every NCAA Tournament since 2002.
 
 ### Challenges and Data Cleaning
 Working with real-world sports data often introduces challenges—missing entries, inconsistent naming conventions, and discrepancies across sources. Here's how I navigated these obstacles:
